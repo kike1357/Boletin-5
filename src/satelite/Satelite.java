@@ -1,10 +1,10 @@
 
-package satelite;
+package satellite;
 
 import javax.swing.JOptionPane;
 
 
-public class Satelite {
+public class Satellite {
 
     //atributos
      private double meridiano ;
@@ -12,11 +12,11 @@ public class Satelite {
      private double distanciaTerra ;
    
      //contructor
- public Satelite ( ) {
+ public Satellite ( ) {
 
   meridiano = paralelo = distanciaTerra = 0 ;
 }
-public Satelite ( double m, double p , double d )  {
+public Satellite ( double m, double p , double d )  {
 
 meridiano = m ;
 paralelo = p;
@@ -35,7 +35,7 @@ public double getDistanciaTerra (){
 }
 public void verPosicion ( ) {
 
-JOptionPane.showMessageDialog(null,"O satelite atopase  no paralelo "+ paralelo + ", meridiano " + meridiano+ ", a unha distancia da terra " + distanciaTerra );
+JOptionPane.showMessageDialog(null,"O satellite atopase  no paralelo "+ paralelo + ", meridiano " + meridiano+ ", a unha distancia da terra " + distanciaTerra );
 }
 }
     
